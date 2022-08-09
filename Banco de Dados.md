@@ -13,7 +13,7 @@
 
 ## Estrutura de um Sistema de Banco de Dados(SBD)
 
-S.B.D(Usuarios -> Aplicações -> (IF ANY PROBLEM D.B.A ->) S.G.B.D <-> B.D - D.D)
+<h1 align="center">S.B.D(Usuarios -> Aplicações -> (IF ANY PROBLEM D.B.A ->) S.G.B.D <-> B.D - D.D)</h1>
 
 
 ![SBD Model](https://bookdown.org/labxss/coorte_adm2/sgbd.png)
@@ -53,19 +53,36 @@ ADD CONSTRAINT PK_DEPT PRIMARY KEY (DEPTNO)
 USING INDEX
 ```
 4. Inserir dados na tabela
-<sub>Command 1</sub>
+*Command 1*
 ```
 INSERT INTO DEPT
 VALUES
 (10, 'ENGENHARIA', 'BELÉM')
 ```
-<sub>Command 2</sub>
+*Command 2*
 ```
 INSERT INTO DEPT
 VALUES
 (20, 'COMPUTAÇÃO', 'IPIXUNA')
 ```
-
+5. Selecionar todos os dados da tabela
+```
+SELECT *
+FROM DEPT
+```
+6. Testar pk(chave primaria)
+*O resultado tem que ser um erro*
+```
+INSERT INTO DEPT
+VALUES
+(10, 'BUSINESS, 'NEW YORK')
+```
+*Adicionar valor valido*
+```
+INSERT INTO DEPT
+VALUES
+(30, 'BUSINESS', 'NEW YORK')
+```
 
 
 

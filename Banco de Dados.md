@@ -24,7 +24,7 @@ S.B.D(Usuarios -> Aplicações -> (IF ANY PROBLEM D.B.A ->) S.G.B.D <-> B.D - D.
 
 ### Projeto Lógico:
 
-<sub> nome(DNOME), numero de departamento(DEPTNO) e localização do departamento(LOC) <- </sub> **dept(departamento)** --RELAÇÃO-- **empregados**
+nome(DNOME), numero de departamento(DEPTNO) e localização do departamento(LOC) <- **dept(departamento)** --RELAÇÃO-- **empregados**
 
 ### Etapas:
 
@@ -53,12 +53,18 @@ ADD CONSTRAINT PK_DEPT PRIMARY KEY (DEPTNO)
 USING INDEX
 ```
 4. Inserir dados na tabela
+<sub>Command 1</sub>
 ```
 INSERT INTO DEPT
 VALUES
-(10, 'ENGENHARIA', 'BELÉM') 
+(10, 'ENGENHARIA', 'BELÉM')
 ```
-
+<sub>Command 2</sub>
+```
+INSERT INTO DEPT
+VALUES
+(20, 'COMPUTAÇÃO', 'IPIXUNA')
+```
 
 
 

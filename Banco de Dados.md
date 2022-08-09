@@ -71,7 +71,7 @@ VALUES
 SELECT *
 FROM DEPT
 ```
-6. Testar pk(chave primaria)
+6. Testar pk(chave primaria)<br></br>
 *O resultado tem que ser um erro*
 ```
 INSERT INTO DEPT

@@ -1,12 +1,14 @@
 # Banco de Dados
 
-*B.D = BANCO DE DADOS
-*S.B.D = SISTEMA DE BANCO DE DADOS
-*S.G.B.D = SISTEMA DE GERÊNCIAMENTO DE BANCO DE DADOS
-*D.D = DICIONARIO DE DADOS, CATÁLOGO OU METADADOS
-*D.B.A = ADMINISTRADOR DE BANCO DE DADOS
-*SQL = LINGUAGEM DE CONSULTA(QUERY) ESTRUTURAVEL
-*CHAVE PRIMARIA(BUSCAR ENTENDER MELHOR) = Identificador unico da tabela.
+## Ìndice
+
+* B.D = BANCO DE DADOS
+* S.B.D = SISTEMA DE BANCO DE DADOS
+* S.G.B.D = SISTEMA DE GERÊNCIAMENTO DE BANCO DE DADOS
+* D.D = DICIONARIO DE DADOS, CATÁLOGO OU METADADOS
+* D.B.A = ADMINISTRADOR DE BANCO DE DADOS
+* SQL = LINGUAGEM DE CONSULTA(QUERY) ESTRUTURAVEL
+* CHAVE PRIMARIA(BUSCAR ENTENDER MELHOR) = Identificador unico da tabela.
 
 
 ## Estrutura de um Sistema de Banco de Dados(SBD)
@@ -18,24 +20,31 @@ S.B.D(Usuarios -> Aplicações -> (IF ANY PROBLEM D.B.A ->) S.G.B.D <-> B.D - D.
 
 ##Prática 1 - Modelagem B.D de RH
 
-Projeto Lógico:
+### Projeto Lógico:
 
 <sub> nome(DNOME), numero de departamento(DEPTNO) e localização do departamento(LOC) <- </sub> **dept(departamento)** --RELAÇÃO-- **empregados**
 
+### Etapas:
 
-COMANDOS:
+- [x] Criar tabela
+- [x] Colocar a PK(primary key)
+- [x] Inserir os dados
+- [x] Consultar os dados
 
-### 1# Criar tabela
+
+### COMANDOS:
+
+1# Criar tabela
 ```
 CREATE TABLE DEPT
 (DEPTNO NUMBER(2, 0) NOT NULL,
 DNAME VARCHAR2(20), LOC VARCHAR2(13))
 ```
-### 2# Visualizar a tabela
+2# Visualizar a tabela
 ```
 DESC DEPT
 ```
-### 3# Colocar a chave primaira
+3# Colocar a chave primaira
 ```
 ALTER TABLE DEPT
 ADD CONSTRAINT PK_DEPT PRIMARY KEY (DEPTNO)

@@ -54,13 +54,13 @@ ADD CONSTRAINT PK_DEPT PRIMARY KEY (DEPTNO)
 USING INDEX
 ```
 4. Inserir dados na tabela
-*Command 1*
+> Command 1
 ```
 INSERT INTO DEPT
 VALUES
 (10, 'ENGENHARIA', 'BELÉM')
 ```
-*Command 2*
+> Command 2
 ```
 INSERT INTO DEPT
 VALUES
@@ -71,14 +71,14 @@ VALUES
 SELECT *
 FROM DEPT
 ```
-6. Testar pk(chave primaria)<br></br>
-*O resultado tem que ser um erro*
+6. Testar pk(chave primaria)
+> O resultado tem que ser um erro
 ```
 INSERT INTO DEPT
 VALUES
 (10, 'BUSINESS, 'NEW YORK')
 ```
-*Adicionar valor valido*
+> Adicionar valor valido
 ```
 INSERT INTO DEPT
 VALUES

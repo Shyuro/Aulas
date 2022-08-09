@@ -14,6 +14,7 @@
 ## Estrutura de um Sistema de Banco de Dados(SBD)
 
 <h3 align="center">S.B.D(Usuarios -> Aplicações -> (IF ANY PROBLEM D.B.A ->) S.G.B.D <-> B.D - D.D)</h3>
+<br></br>
 
 
 ![SBD Model](https://bookdown.org/labxss/coorte_adm2/sgbd.png)

@@ -36,24 +36,28 @@ S.B.D(Usuarios -> Aplicações -> (IF ANY PROBLEM D.B.A ->) S.G.B.D <-> B.D - D.
 
 ### COMANDOS:
 
-1# Criar tabela
+1. Criar tabela
 ```
 CREATE TABLE DEPT
 (DEPTNO NUMBER(2, 0) NOT NULL,
 DNAME VARCHAR2(20), LOC VARCHAR2(13))
 ```
-2# Visualizar a tabela
+2. Visualizar a tabela
 ```
 DESC DEPT
 ```
-3# Colocar a chave primaira
+3. Colocar a chave primaira
 ```
 ALTER TABLE DEPT
 ADD CONSTRAINT PK_DEPT PRIMARY KEY (DEPTNO)
 USING INDEX
 ```
-
-
+4. Inserir dados na tabela
+```
+INSERT INTO DEPT
+VALUES
+(10, 'ENGENHARIA', 'BELÉM') 
+```
 
 
 

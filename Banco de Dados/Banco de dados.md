@@ -11,6 +11,7 @@
 * CHAVE PRIMARIA(BUSCAR ENTENDER MELHOR) = IDENTIFICADO UNICO DA TABELA
 * DADO = DADOS SÃO FATOS BRUTOS QUE NÃO FORAM SUBMETIDOS A NENHUM PROCESSAMENTO DE MODO A MOSTRAR SEU REAL SIGNIFICADO
 * INFORMAÇÃO = A INFORMAÇÃO É O PROCESSAMENTO DE DADOS BRUTOS PARA REVELAR O SEU SIGNIFICADO
+* COMANDOS ATOMICOS = SO PODEM SER REALIZADOS UMA UNICA VEZ
 
 ## Estrutura de um Sistema de Banco de Dados(SBD)
 
@@ -85,10 +86,34 @@ INSERT INTO DEPT
 VALUES
 (30, 'BUSINESS', 'NEW YORK')
 ```
-
-
-
-
+7. Criar tabela de empregados
+```
+CREATE TABLE emp
+    (empno NUMBER(4, 0) NOT NULL,
+    ename   VARCHAR2(10),
+    job VARCHAR2(9),
+    mgr NUMBER(4, 0),
+    hiredate    DATE,
+    sal NUMBER(7, 2),
+    comm    NUMBER(7, 2),
+    deptno NUMBER(2, 0))
+```
+8. Verificar tabela emp
+```
+DESC emp
+```
+9. Criar as Constraints(restrições) da tabela emp
+```
+ALTER TABLE emp
+ADD CONSTRAINT pk_emp PRIMARY KEY (empno)
+USING INDEX
+```
+10. Criar foreing key(fk)
+```
+ALTER TABLE emp
+ADD CONSTRAINT fk_deptno FOREIGN KEY (deptno)
+REFERENCES dept (deptno)
+```
 
 
 

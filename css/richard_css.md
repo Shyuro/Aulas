@@ -33,6 +33,10 @@
 - selection   - te permite modificar o que acontece quando vc selecionar com o mouse.
 - placeholder - nome pré-setado em caixas de texto e afins.
 ## especificidade do css:
+ 
+ ![Isso](https://miro.medium.com/max/808/1*G73Yp-82tYG2X95qEKClyQ.png)
+
+
 - são 3 coisas:
 > id    classe, atributos e pseudo-classes    elementos e pseudo-elementos<br>
 > fica (x,x,x)

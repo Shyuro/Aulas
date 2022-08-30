@@ -118,21 +118,21 @@ REFERENCES dept (deptno)
 ```
 
 
-## TAREFA PROFESSOR HELIO
+## TAREFA PROFESSOR HELLY
 
 1. Considerando a estrutura da tabela departamento escreva sobre os 
 * campos
 * tipos de dados 
 * tamanhos de coluna.
-2. Qual é o comando que mostra todos os dados da tabela dept
-3. Mostre a instrução de criação da tabela adega
-4. Mostre a instrução de inserção de dados na tabela emp
-5. Mostre a instrução de insersão de dados na tabela dept
-6. Mostre uma intrução de insersão de dados na tabela adega
-7. Qual o comando que mostra a estrutura da tabela dept?
-8. Faça a diferença entre VARCHAR e VARCHAR2
-9. Qual é a instrução que cria uma chave primaria na tabela emp?
-10. Qual a intrução que cria uma chave extrangeira na tabela emp?
+3. Qual é o comando que mostra todos os dados da tabela dept
+4. Mostre a instrução de criação da tabela adega
+5. Mostre a instrução de inserção de dados na tabela emp
+6. Mostre a instrução de insersão de dados na tabela dept
+7. Mostre uma intrução de insersão de dados na tabela adega
+8. Qual o comando que mostra a estrutura da tabela dept?
+9. Faça a diferença entre VARCHAR e VARCHAR2
+10. Qual é a instrução que cria uma chave primaria na tabela emp?
+11. Qual a intrução que cria uma chave extrangeira na tabela emp?
 
 oracle apex keys:
 

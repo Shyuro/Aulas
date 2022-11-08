@@ -1,10 +1,19 @@
-# Diagrama de Árvore: Formato dos Registros
+# 1. Levantamento do Ambiente
+# 2. Diagrama de Entidade e Relacionamento - DER
+
+![Imagem](https://www.imagemhost.com.br/images/2022/11/08/Diagrama-em-branco.png)
+
+# 3. Diagrama de Estrutura de Dados - DED
+
+![https://ibb.co/rQ28ZVM](https://www.imagemhost.com.br/images/2022/11/08/DEDDER-quase-1.png)
+
+# 4. Diagrama de Árvore: Formato dos Registros
 
 ![This is an image](https://www.imagemhost.com.br/images/2022/11/08/Diagramas-de-arvores.png)
 
 
 
-# Criando Tabelas
+# 5. Criando Tabelas
 
 ## Tabela Fornecedor
 ```

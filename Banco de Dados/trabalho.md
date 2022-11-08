@@ -1,3 +1,9 @@
+# Diagrama de Árvore: Formato dos Registros
+
+![This is an image](https://www.imagemhost.com.br/images/2022/11/08/Diagramas-de-arvores.png)
+
+
+
 # Criando Tabelas
 
 ## Tabela Fornecedor
